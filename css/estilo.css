@@ -1,13 +1,22 @@
 body {
-  background-color: white;
+  background: linear-gradient(135deg, #ffd1dc, #ffe6f0, #fff0f5);
 }
 
 h1 {
-  color: black;
+  color: #e91e63;
   text-align: center;
 }
 
 p {
+  color: #444;
   font-family: verdana;
   font-size: 20px;
+}
+
+h1::before {
+  content: "💖 ";
+}
+
+h1::after {
+  content: " 💖";
 }
